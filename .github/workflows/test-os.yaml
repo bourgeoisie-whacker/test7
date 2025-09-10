@@ -6,9 +6,9 @@ on:
 jobs:
   test1:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=one
     steps:
       - name: test
@@ -22,9 +22,9 @@ jobs:
 
   test2:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=two
     steps:
       - name: test
@@ -40,9 +40,9 @@ jobs:
 
   test3:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=three
     steps:
       - name: test
@@ -58,9 +58,9 @@ jobs:
 
   test4:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=four
     steps:
       - name: test
@@ -77,9 +77,9 @@ jobs:
 
   test5:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=five
     steps:
       - name: test
@@ -95,9 +95,9 @@ jobs:
 
   test6:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=six
     steps:
       - name: test
@@ -113,9 +113,9 @@ jobs:
 
   test7:
     runs-on:
-      group: prod
+      group: test-os
       labels:
-        - action-group=prod
+        - action-group=test-os
         - action-pool=seven
     steps:
       - name: test
